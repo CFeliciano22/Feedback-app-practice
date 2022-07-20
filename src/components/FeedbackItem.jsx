@@ -2,7 +2,6 @@ import Card from "./shared/Card"
 import {FaTimes} from 'react-icons/fa'
 function FeedbackItem({item, handleDelete}) {
 
-
   return (
     <Card>
         <div className='num-display'>{item.rating}</div>

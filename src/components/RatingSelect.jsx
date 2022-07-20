@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 function RatingSelect({select}) {
-    const [selected, setSelected] = useState(10)
+    const [selected, setSelected] = useState(0)
 
     const handleChange = (e) => {
         setSelected(+e.currentTarget.value)
